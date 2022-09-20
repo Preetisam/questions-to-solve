@@ -1,0 +1,9 @@
+function revrse(arr){
+    var output =[];
+   while(arr.length){
+        output.push(arr.pop());
+    }
+    return output;
+
+}
+console.log(revrse([1,2,3,4,5,6]));
